@@ -6,7 +6,7 @@
 
 Run the following to start a development server, once it's running edit the files in `site/` and you'll see your changes reflected immediately in the browser.
 
-```sh
+```bash
 nix run .#site-dev-server
 ```
 
