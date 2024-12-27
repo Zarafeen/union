@@ -1564,6 +1564,7 @@ module ucs03::zkgm_relay {
                 path,
                 *vector::borrow(&batch_packet.instructions, i)
             );
+            i = i + 1;
         }
     }
 
